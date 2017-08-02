@@ -1,5 +1,7 @@
 // reducer takes two things
-
+//  ...state.slice(0,i),
+// {...state[i], likes: state[i].likes + 1},
+//...state.slice(i + 1),
 //1. the action (info about what happened)
 // 2. copy of the current state
 
